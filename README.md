@@ -1,12 +1,17 @@
-# React + Vite
+# React Context Theme (Vite + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, modern React app built with Vite that demonstrates theme toggling (Light/Dark) using the React Context API. Includes a simple counter and animated logo cards. Styled with Tailwind CSS utility classes.
 
-Currently, two official plugins are available:
+## Features
+- **Theme toggle via Context API** (`ThemeContext`)
+- **Light/Dark UI with Tailwind CSS**
+- **Vite** fast dev server + HMR
+- **Simple counter state with React Hooks**
+- **Accessible buttons and keyboard-friendly interactions**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React 18
+- Vite
+- Tailwind CSS
+- React Context API
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
