@@ -1,6 +1,10 @@
 # React Context Theme (Vite + Tailwind)
+[![Live on Vercel](https://img.shields.io/badge/Live-Vercel-black?logo=vercel)](https://react-context-theme-sable.vercel.app/)
 
 A minimal, modern React app built with Vite that demonstrates theme toggling (Light/Dark) using the React Context API. Includes a simple counter and animated logo cards. Styled with Tailwind CSS utility classes.
+
+## Live Demo
+https://react-context-theme-sable.vercel.app/
 
 ## Features
 - **Theme toggle via Context API** (`ThemeContext`)
@@ -14,4 +18,3 @@ A minimal, modern React app built with Vite that demonstrates theme toggling (Li
 - Vite
 - Tailwind CSS
 - React Context API
-
